@@ -147,3 +147,93 @@ button:hover {
     filter: brightness(0.8);
     box-shadow: none;
 }
+
+/* Trinh Anh Phung chinh sua button */
+ /* Button */
+button
+{
+        border: 1px solid #3498db;  
+        background: none;
+        padding: 10px 20px ;
+        font-family: sans-serif , italic ;
+        font-weight: 700;
+        border-radius: 5px  ;
+
+       
+        transition: all 0.2s linear;
+
+        position: relative;
+        overflow: hidden;
+   cursor: pointer;
+        box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+
+        font-family: 'Birthstone Bounce', cursive;
+font-family: 'Croissant One', serif;
+font-family: 'Lora', serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Sacramento', cursive;
+
+}
+
+.btn:hover{
+    color: #000000;
+    transition: all 0.2s linear;
+    box-shadow: 0 5px 5px 0 black;
+    z-index: 1;
+}
+
+.btn::before
+{
+    content: "";
+    position: absolute;
+    background-color:#3498db ;
+    width: 100%;
+    height: 0%;
+    left: 0;
+    /* z-index: 1; */
+    transition: all 0.2s linear;
+    bottom: 0;
+    border-radius: 50% 50% 0% 0% ;
+}
+.btn:hover::before
+{
+    
+    height: 180%;
+    z-index: -1;
+    opacity: 1;
+    transition: all 0.2s linear;
+}
+
+/* Time left  */
+
+
+.time1
+{
+  font-family: bold italic ;
+  font-size: 23px ;
+  font-weight: 700;
+  color: #47a2df;
+cursor: pointer;
+transition: all 0.3s ease;
+font-family: 'Sacramento', 'cursive';
+/* width: 30px ; */
+font-family: 'Birthstone Bounce', cursive;
+font-family: 'Croissant One', serif;
+font-family: 'Lora', serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Sacramento', cursive;
+}
+
+.time1:hover
+{
+ color: #0093f5;
+ transition: all 0.5s ease;
+ border-bottom: 3px solid #0093f5;
+ 
+ 
+
+}
